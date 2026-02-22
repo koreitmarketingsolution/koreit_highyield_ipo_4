@@ -7,7 +7,14 @@
 <style>
 body {
   margin: 0;
-  background: black;
+  background: #111;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px; /* PC에서 최대 너비 제한 */
 }
 
 img {
@@ -20,11 +27,13 @@ img {
 
 <body>
 
-<img src="01.PNG">
-<img src="02.PNG">
-<img src="03.PNG">
-<img src="04.PNG">
-<img src="05.PNG">
+<div class="container">
+  <img src="01.PNG">
+  <img src="02.PNG">
+  <img src="03.PNG">
+  <img src="04.PNG">
+  <img src="05.PNG">
+</div>
 
 </body>
 </html>
